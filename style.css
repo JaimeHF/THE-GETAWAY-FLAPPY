@@ -1,0 +1,163 @@
+body {
+    background-image: url("./img/vista-tierra-noche-planeta-alienigena-espacio-neon_33099-1876.jpg");    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Sigmar One', cursive;
+    }
+ 
+    .game{
+        display: none;
+        position: absolute;
+        top: 12%;
+        left: 23%;
+    }
+    span{
+        color: #d4bf27;
+    }
+
+   #start{
+            border-radius: 50%;
+            width: 220px;
+            height: 70px;
+            background-color: rgb(0, 255, 0);
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            font-size: 30px;
+            color: rgb(63, 62, 62);
+    }
+    .ini{
+        border-radius: 50%;
+        width: 220px;
+        height: 70px;
+        background-color: rgb(0, 255, 0);
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        font-size: 30px;
+        color: rgb(63, 62, 62);
+
+    }
+
+    .win{
+        color: rgb(0, 255, 0);
+        font-size: 100px;
+        display: none;
+        position: absolute;
+        top: 42%;
+        flex-direction: column;
+        text-align: center;
+        padding: 50px;
+            display: none;
+    }
+
+    
+    
+.lose{
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+    display: none;
+    position: absolute;
+    top: 42%;
+    flex-direction: column;
+        text-align: center;
+        padding: 50px;
+}
+.try{
+    border-radius: 50%;
+    width: 220px;
+    height: 70px;
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 100%;
+    left: 33%;
+    font-size: 30px;
+    color: rgb(63, 62, 62);
+    
+}
+
+.time{
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+    display: none;
+    position: absolute;
+    top: 32%;
+    /* left: 27%; */
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+.try1{
+    border-radius: 50%;
+    width: 220px;
+    height: 70px;
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 100%;
+    left: 43%;
+    font-size: 30px;
+    color: rgb(63, 62, 62);
+    
+}
+.try2{
+    border-radius: 50%;
+    width: 220px;
+    height: 70px;
+    background-color: rgb(0, 255, 0);
+    position: absolute;
+    top: 100%;
+    left: 43%;
+    font-size: 30px;
+    color: rgb(63, 62, 62);
+    
+}
+h2{
+    color: rgb(0, 255, 0);
+    font-size: 60px;
+}
+
+h1{
+    color: rgb(0, 255, 0);
+    font-size: 100px;
+}
+.bar{
+    font-size: 20px;
+        position: absolute;
+        top: 72%;
+        left: 27%;
+        text-decoration: none;
+        color: rgb(0, 255, 0);
+
+}
+.space{
+    width: 10vw;
+    height:5vh ;
+    position: absolute;
+    top: 64%;
+    left: 27%;
+}
+.key{
+    width: 15vw;
+    height:17vh ;
+    position: absolute;
+    top: 56%;
+    left: 5%;
+}
+.direc{
+      font-size: 20px;
+        position: absolute;
+        top: 71%;
+        left: 4%;
+        text-decoration: none;
+        color: rgb(0, 255, 0);
+    }
+
+
+li{
+    padding: 10px;
+}

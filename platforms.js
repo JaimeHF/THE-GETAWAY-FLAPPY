@@ -4,14 +4,17 @@ class Platforms {
         this.posX = x;
         this.posY = y;
         this.width = w;
-        this.height = h;
+        this.height = 16;
+
+     
     }
 
     draw() {
+        
 
 
         this.ctx.beginPath();
-        this.ctx.fillStyle = `grey`;
+        this.ctx.fillStyle = `#a8b0ab`;
         this.ctx.rect(this.posX , this.posY, this.width, this.height);
         this.ctx.fill();
         this.ctx.closePath();

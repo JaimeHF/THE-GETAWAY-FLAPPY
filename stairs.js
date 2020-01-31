@@ -7,17 +7,13 @@ class Stairs {
         this.height = h;
 
         this.img = new Image()
-        this.img.src = '/img/stair.jpg';
+        this.img.src = './img/sprite-_escalera.png';
     }
 
     draw() {
         this.ctx.drawImage(this.img, this.posX , this.posY, this.width, this.height );
 
-        // this.ctx.beginPath();
-        // this.ctx.fillStyle = `yellow`;
-        // this.ctx.rect(this.posX , this.posY, this.width, this.height);
-        // this.ctx.fill();
-        // this.ctx.closePath();
+    
     }
 
 
