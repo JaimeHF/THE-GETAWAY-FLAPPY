@@ -25,10 +25,14 @@ window.onload = function () {
         game.init()
     };
 
-
     document.getElementById("ini").onclick = function () {
         document.querySelector(".botton").style.display = "none";
         window.location= './index.html';
+       
+    };
+    document.getElementById("histo").onclick = function () {
+        document.querySelector(".botton").style.display = "none";
+        window.location= './index2.html';
        
     };
 };

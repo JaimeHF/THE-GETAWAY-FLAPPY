@@ -41,6 +41,19 @@ body {
         left: 80%;
         font-size: 30px;
         color: rgb(63, 62, 62);
+        z-index:999;
+
+    }
+    .histo{
+        border-radius: 50%;
+        width: 220px;
+        height: 70px;
+        background-color: rgb(0, 255, 0);
+        position: absolute;
+        top: 70%;
+        left: 80%;
+        font-size: 30px;
+        color: rgb(63, 62, 62);
 
     }
 

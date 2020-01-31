@@ -35,7 +35,7 @@ const game = {
             src: ["./sounds/happy-tree-friends-theme-song.mp3"],
             autoplay: true,
             loop: false,
-            volume: 0.5
+            volume: 0.7
         });
         this.star();
     },
